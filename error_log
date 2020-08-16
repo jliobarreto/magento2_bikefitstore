@@ -1,0 +1,8 @@
+[15-Jul-2020 01:16:25 UTC] PHP Fatal error:  Uncaught Error: Class 'Monolog\Utils' not found in /home/bikefit2/mg.bikefit-store.com/vendor/monolog/monolog/src/Monolog/Formatter/NormalizerFormatter.php:174
+Stack trace:
+#0 /home/bikefit2/mg.bikefit-store.com/vendor/monolog/monolog/src/Monolog/Formatter/LineFormatter.php(163): Monolog\Formatter\NormalizerFormatter->toJson(Array, true)
+#1 /home/bikefit2/mg.bikefit-store.com/vendor/monolog/monolog/src/Monolog/Formatter/LineFormatter.php(127): Monolog\Formatter\LineFormatter->convertToString(Array)
+#2 /home/bikefit2/mg.bikefit-store.com/vendor/monolog/monolog/src/Monolog/Formatter/LineFormatter.php(103): Monolog\Formatter\LineFormatter->stringify(Array)
+#3 /home/bikefit2/mg.bikefit-store.com/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Formatter\LineFormatter->format(Array)
+#4 /home/bikefit2/mg.bikefit-store.com/vendor/monolog/monolog/src/Monolog/Logger.php(344): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#5 /home/bikefit2/mg.bikefit-store.com/vendor/mage in /home/bikefit2/mg.bikefit-store.com/vendor/monolog/monolog/src/Monolog/Formatter/NormalizerFormatter.php on line 174
